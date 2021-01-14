@@ -1,0 +1,69 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color:  #fceae8;
+}
+ul li{
+    color: black;
+    font-weight: 700;
+    padding: 1em;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+.highlight-text{
+    color: rebeccapurple;
+}
+.buy-button, .submit-button{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px 20px;
+    border-radius: .5em;
+    font-weight: 600;
+}
+.jacket-card{
+    border: none;
+    background-color: white;
+    border-radius: 2em;
+    padding: 1em; 
+    height: 500px;
+}
+.card-img{
+    background-color: lightgray;  
+    border-radius: 1em;
+    height: 400px; 
+}
+.card-img img{
+    width: 100%;
+    height: 400px;
+}
+.jacket-card-footer{
+    border: none;
+    background-color: white;
+}
+.services-box{
+    border: none;
+    border-radius: 1em;
+}
+#products{
+    background-color: honeydew;
+}
+.bonous-part{
+    background-color: lavender;
+}
+.input-text, .message{
+	margin-bottom: 20px;
+    transition:.8s;
+}
+.input-text input, .message textarea {
+	padding: 10px;
+    border: 1px solid rebeccapurple;
+    border-radius: .2em;
+	width: 100%;
+	font-size: 15px;
+}
+.input-text:hover, .message:hover{
+	box-shadow: 3px 4px 6px slateblue;
+}
